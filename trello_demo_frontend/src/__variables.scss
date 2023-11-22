@@ -1,0 +1,10 @@
+@mixin centerElementByFlex($direction , $justifyContent , $alignItems){
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    flex-direction: $direction;
+}
+
+$primaryColor : #f7f8f9;
+$darkPrimaryColor : #10244740;
+$secondaryColor : #0084ff;

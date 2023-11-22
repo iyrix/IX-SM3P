@@ -1,0 +1,15 @@
+@import '../../_variables';
+
+.landing-container {
+  .heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px;
+
+  }
+  .landing-wrapper {
+    height: 100vh;
+    @include centerElementByFlex(row , center , flex-start);
+  }
+}
